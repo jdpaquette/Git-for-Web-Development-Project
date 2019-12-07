@@ -1,2 +1,85 @@
-Code Pen Link: link to follow, not due until tomorrow. 
+https://codepen.io/jdpaquette/pen/WNbvPMd
+
+    1. What is Semantic HTML? Clearly defining content in HTML markup.
+
+    2. What is HTML used for?  to create electronic documentsto display in a browser.
+
+    3. What is an attribute and where do we put it? modifies or provides functionality to elements. 
+
+    4. What is the h1 tag used for? How many times should I use it on a page? h1 tags are used for imporant headings on a page. Used as much as needed for section headings possibly. 
+
+    5. Name two tags that have required attributes: input / select
+
+    6. What do we put in the head of our HTML document?  metadata (title), Style etc.
+
+    7. What is an id? is a unique identifier that can only be used once and should be used minimally. 
+
+    8. What elements can I add an id to? ALL HTML elements
+
+    9. How many times can I use the same id on a page?  once
+
+    10. What is a class? define equal stylesfor elements with the same class name. 
+
+    11. What elements can I add a class to? ALL
+
+    12. How many times can I use the same class on a page? as needed
+
+    13. How do I get my link to open in a new tab?  target='_blank"
+
+    14. What is the alt attribute used for?  usually alternate text for an image "accessability"
+
+    15. How do I reference an id? with # sign
+     
+    16. What is the difference between a section and a div: the section element difines a section of the document where the div is purely a container.
+    
+    17. What is CSS used for? the "style" the HTML markup of a page
+
+    18. How to we select an element? Example - every h2 on the page: just type the element ie h2 {}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one: class can be used multiple times where an id can only be used once. Class can be used for just about anything that you want to style the same. An ID however is used only once and the best place it the reference section links on a page. 
+
+    20. How do we select classes in CSS? with the "."
+
+    21. How do we select a p element with a single class of “human””?  .human p {}
+
+    22. What is a parent child selector? When would this be useful? is where you have an element placed in side other elements. like the example above the "p" in that case is the child of the ".human" class. Useful to select specific elements on a page instead of all of them.
+
+    23. How do you select all links within a div with the class of sidebar? .sidebar a {}
+
+    24. What is a pseudo selector? selects elements within a specific state like :hover. 
+
+    25. What do we use the change the spacing between lines? line-height
+
+    26. What do we use to change the spacing between letters? letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted black;
+
+    29. How do I select everything on the page? body {}
+
+    30. How do I write a comment in CSS? /* */
+
+    31. How do I find out what file I am in, when I am using the command line? pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm filename.xxx - careful becuase it is not undoable. 
+
+    34. Why should I use version control? so you can always rollback to a previous version if there are issues.
+
+    35. How often should I commit to github? often, whenever you make meaningful changes. 
+
+    36. What is the command we would use to push our repo up to github? git push or more specifically git push -u origin branch-name
+
+    37. Walk me through Lambda's git flow. 
+        1. fork the repository you want to use so it is in your own name.
+        2. add TL as a collaborator under the settings of your new repository.
+        3. Clone your new repo down to your local machine.
+        4. create a working branch using your firstname-lastname as the title
+        5. Make changes as necessary then (git add / commit / push)
+        6. Submit pull request 
+            a. compare branch against master (student forked repo) 
+            b. add TL as reviewer
+        7. TL will count the HW as done and merge it back into master student fork. 
 
