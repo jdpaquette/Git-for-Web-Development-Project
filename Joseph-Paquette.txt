@@ -56,7 +56,7 @@ https://codepen.io/jdpaquette/pen/WNbvPMd
 
     28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted black;
 
-    29. How do I select everything on the page? body {}
+    29. How do I select everything on the page? * {}
 
     30. How do I write a comment in CSS? /* */
 
